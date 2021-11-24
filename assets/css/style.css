@@ -1539,8 +1539,8 @@ section {
 }
 
 .text-color-one-dark {
-  color: var(--color-one-dark);
-  font-weight: bolder;
+  color: var(--color-one-dark) !important;
+  font-weight: bolder !important;
 }
 
 .text-overflow {
