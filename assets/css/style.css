@@ -1543,8 +1543,33 @@ section {
   font-weight: bolder !important;
 }
 
+.text-color-two-light {
+  color: var(--color-two-light) !important;
+  font-weight: bold !important;
+}
+
+.text-color-two-dark {
+  color: var(--color-two-dark);
+}
+
 .text-overflow {
   text-overflow: ellipsis !important;
   overflow: hidden !important;
   white-space: nowrap !important;
+}
+
+.box-product{
+  color: var(--color-one);
+  width: 100%;
+  margin: 1px auto;
+  background-color: whitesmoke;
+  padding: 5px;
+  height: 400px !important;
+}
+
+.box-product ul {
+  list-style-type: none;
+}
+.product-resume{
+  min-height: 100px !important;
 }
