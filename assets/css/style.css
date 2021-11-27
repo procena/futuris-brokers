@@ -1573,3 +1573,7 @@ section {
 .product-resume{
   min-height: 100px !important;
 }
+
+.img-event {
+  height: 550px;
+}
